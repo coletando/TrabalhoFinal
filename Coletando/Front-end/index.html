@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Coletando - Reciclagem Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/coletando.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Coletando</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cadastro">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#entrar">| Entrar |</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+
+        <div class="intro-text">
+          <span class="name">Coletando</span>
+          <img class="img-fluid" src="img/recycle-three-arrows-triangle (5).png" alt="">
+          <span class="skills">Foram incluidos XXX novos pontos de coleta hoje</span>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="text-center">Sobre</h2>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Cadastro Section -->
+    <section id="cadastro">
+      <div class="container">
+        <h2 class="text-center">Cadastre-se</h2>
+        <hr>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <form name="sentMessage" id="cadForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" required >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Data de Nascimento</label>
+                  <input class="form-control" id="datanasc" type="text" placeholder="Data de Nascimento" required >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>CEP</label>
+                  <input class="form-control" id="cep" type="text" placeholder="CEP" >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Rua</label>
+                  <textarea class="form-control" id="rua"  type="text" placeholder="Rua" required ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Número</label>
+                  <textarea class="form-control" id="numero" type="text" placeholder="Número" required ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Bairro</label>
+                  <textarea class="form-control" id="bairro" type="text" placeholder="Bairro" required ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Cidade</label>
+                  <textarea class="form-control" id="cidade" type="text" placeholder="Cidade" required ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Estado</label>
+                  <textarea class="form-control" id="estado" type="text" placeholder="Estado" required></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Complemento</label>
+                  <textarea class="form-control" id="complemento" type="text" placeholder="Complemento"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+
+              <div class="control-group">
+                  <div class="radio">
+                      <label class="radio">
+                          <input name="radio" type="radio" value="Coletor"/>
+                          Coletor
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label class="radio">
+                          <input name="radio" type="radio" value="Descartador"/>
+                          Descartador
+                      </label>
+                  </div>
+
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="cadButton">Cadastrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Contato Section-->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="text-center">Contato</h2>
+        <hr>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Name</label>
+                  <input class="form-control" id="cname" type="text" placeholder="Nome" required data-validation-required-message="Por favor preencha seu nome.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Email</label>
+                  <input class="form-control" id="cemail" type="text" placeholder="Email" required data-validation-required-message="Por favor preencha o Email.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensagem</label>
+                  <input class="form-control" id="cmsg" size="12" type="text"  placeholder="Mensagem" required data-validation-required-message="Deixe uma mensagem.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="csuccess"></div>
+              <div class="form-group">
+                <button class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+              </div>
+            </form>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!--Coletor Section-->
+    <section class="colector-section" id="colector">
+      <div class="container">
+        <h2 class="text-center">Coletor</h2>
+        <hr>
+        <div class="row">
+          <div class="hide-colector">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <form name="sentMessage" id="colector-form" novalidate>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>CEP</label>
+                      <input class="form-control" id="colector-cep" type="text" placeholder="CEP" required >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>Rua</label>
+                      <input class="form-control" id="colector-rua" type="text" placeholder="Rua" required >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>Bairro</label>
+                      <input class="form-control" id="colector-bairro"type="text"  placeholder="Bairro" required >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <br>
+                  <div id="colector-success"></div>
+                  <div class="form-group">
+                    <button class="btn btn-success btn-lg" id="search-colector-button">Buscar</button>
+                  </div>
+                </form>
+                </form>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div id="map"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about-section" id="descarter">
+      <div class="container">
+        <h2 class="text-center">Descartador</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12  mx-auto">
+                <form method="post">
+                    <div class="form-group ">
+                        <label class="control-label ">
+                            Material a ser descartado
+                        </label>
+                        <div class=" ">
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Metal"/>
+                                    Metal
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Pl&aacute;stico"/>
+                                    Pl&aacute;stico
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Vidro"/>
+                                    Vidro
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Madeira"/>
+                                    Madeira
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Papel"/>
+                                    Papel
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Eletr&ocirc;nico"/>
+                                    Eletr&ocirc;nico
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input name="checkbox" type="checkbox" value="Bateria"/>
+                                    Bateria
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="name1">
+                            Quantidade
+                        </label>
+                        <input class="form-control" id="name1" name="name1" placeholder="Quantidade" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="number">
+                            Disponibilidade para Retirada
+                        </label>
+                        <input class="form-control" id="number" name="number" placeholder="XX/XX/XXXX" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="text">
+                            Hor&aacute;rio de Retirada
+                        </label>
+                        <input class="form-control" id="text" name="text" placeholder="XX:XX" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button class="btn btn-primary " name="submit" type="submit">
+                                Descartar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                </form>
+            </div>
+        </div>
+      </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <!--Fazer-->
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; Coletando 2017
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+
+    <!--Maps config JavaScript-->
+    <script src="js/maps.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtDlqYS71dBoSSAYHg82vS5zmzmQUjoIY&callback=initMap">
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <!-- Custom scripts for this template -->
+    <script src="js/coletando.min.js"></script>
+
+  </body>
+
+</html>
