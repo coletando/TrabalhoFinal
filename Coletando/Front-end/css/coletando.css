@@ -108,7 +108,7 @@ section.success {
 
 .about-section{
     color: white;
-    background-color: #929292;
+    background-color: #18BC9C;
     margin: 0 auto;
 }
 
@@ -134,18 +134,22 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #353535; }
+  background: #000; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
     font-size: 1.1rem;
-    color: white; }
+    color: white;
+
+}
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: white; }
   #mainNav .navbar-nav {
     letter-spacing: 1px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: white; }
+      color: white;
+      transition: all 0.5s ease;
+    }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #18BC9C;
         outline: none; }
